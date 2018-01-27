@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<script type="text/javascript" src="bfgen.js"></script>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>BF code generator</title>
+	</head>
+	
+	<body>
+		<h2>BF code generator</h2>
+		<h3>Input:</h3>
+		<textarea id="input" rows=10 cols=40 onkeyup="gencode()"></textarea><br />
+		<h3>Output: </h3>
+		<textarea id="output" rows=10 cols=40></textarea><br />
+		<input type=button onclick="gencode()" value="Generate code"><br /><br />
+		<p>
+			Text size: <input type=text id=textsize size=10><br />
+			Code size: <input type=text id=codesize size=10><br />
+		</p>
+	</body>
+</html>
